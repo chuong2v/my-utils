@@ -1,0 +1,19 @@
+{
+  "name": "my-utils",
+  "version": "1.0.0",
+  "description": "All utilities ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://\u001b[D\u001b[D\u001b[Ds\u001b[C\u001b://www.github.com/chuong2v/my-utils.git"
+  },
+  "keywords": [
+    "utils",
+    "bdd"
+  ],
+  "author": "chuong2v",
+  "license": "ISC"
+}
