@@ -4,7 +4,7 @@
   "description": "All utilities ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp cucumber"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
     "bdd"
   ],
   "author": "chuong2v",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^1.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cucumber": "0.0.22",
+    "zombie": "^4.2.1"
+  }
 }
