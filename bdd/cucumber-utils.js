@@ -14,13 +14,13 @@ var setSubDocValue = function(obj, keys, value) {
 }
 
 var validateData = function(data) {
-	if (data == "true" || data == "false") {
-		return data == "true";
-	}
-	if (typeof data == "string" && (data.charAt(0) == '{' || data.charAt(0) == '[')) {
+	try {
 		return JSON.parse(data);
+	} catch (error) {
+		return data;
 	}
 }
+
 module.exports = {
 	setSubDocValue,
 	validateData
